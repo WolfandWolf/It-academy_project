@@ -1,0 +1,154 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 663px;
+  font-family: ProximaNova;
+  font-weight: bold;
+}
+
+.about img {
+  margin-right: 97px;
+  box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.45);
+    width: 460px;
+}
+
+.about .text {
+  width: 340px;
+  
+}
+
+.about .about-text-title {
+    position: relative;
+    
+}
+
+.about .about-text-title h3 {
+  margin: 0;
+  font-size: 53px;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.about .about-text-title::before {
+    content: "";
+    width: 162px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-100%, 0);
+    
+}
+
+.about-text-p {
+    position: relative;
+}
+.about .text .about-text-p::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    display: block;
+    left: 0;
+    top: 12%;
+    background-color: #bea67c;
+    transform: translate(-100%, 0);
+}
+
+.about .about-text-p p {
+  font-weight: normal;
+  color: #464646;
+  margin: 20px 0 0 20px;
+}
+
+.about .learn-more_down {
+  display: block;
+  width: 253px;
+  height: 54px;
+  margin-top: 20px;
+  margin-left: 20px;
+  stroke: #bea67c;
+  text-transform: uppercase;
+}
+
+.about .learn-more_down div:nth-child(1) {
+  float: left;
+  margin-top: 22px;
+  margin-left: 3px;
+  color: #000;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.about .learn-more_down svg {
+  float: left;
+  display: block;
+  margin-left: 12px;
+  margin-top: 19px;
+}
+
+.about .learn-more_down div:nth-child(3) {
+  position: relative;
+  top: 40px;
+  left: 2px;
+  width: 44px;
+  height: 2px;
+  background-color: #bea67c;
+}
+
+@media (min-width: 768px) and (max-width: 1215px) {
+  .about img {
+    margin-right: 50px;
+      width: 430px;
+  }
+  
+  .about .about-text-title h3 {
+    font-size: 48px;
+  }
+  
+  .about .about-text-title::before {
+      width: 103px;
+      
+  } 
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+  
+  .about img {
+    margin-right: 0px;
+    width: 92%;
+  }
+  
+  .about .text {
+    width: 340px;
+    
+  }
+  
+  .about .about-text-title h3 {
+    margin-top: 10px;
+    margin-left: 31px;
+  }
+  
+  .about .about-text-title::before {
+      display: none;
+  }
+
+  .about .text .about-text-p::before {
+    display: none;
+  }
+  
+  .about .about-text-p p {
+    margin: 20px 0 0 30px;
+    width: 277px;
+}
+
+.about .learn-more_down {
+  margin-left: 28px;
+  
+}
+}

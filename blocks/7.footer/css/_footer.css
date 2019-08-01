@@ -1,0 +1,39 @@
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 69px;
+  background-image: url(../img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: ProximaNova;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* label wooder */
+
+footer .middle-container {
+  display: flex;
+  align-items: center;
+}
+
+footer .main-name {
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  letter-spacing: 12px;
+}
+
+footer .main-name:hover {
+  color: #bea67c;
+}
+
+footer .main-name div {
+  position: absolute;
+  top: 14px;
+  left: 44px;
+  width: 50px;
+  height: 4px;
+  background-color: #bea67c;
+}

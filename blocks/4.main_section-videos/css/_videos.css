@@ -1,0 +1,80 @@
+.videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: ProximaNova;
+  font-weight: bold;
+    margin-bottom: 110px;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+    width: 65%;
+}
+
+.video-1, .video-2, .video-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container div img {
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.image-container div p {
+    text-align: center;
+    margin: 0;
+}
+
+.image-container div p:before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: #bea67c;
+    margin: 0 auto 15px;
+}
+
+@media (min-width: 768px) and (max-width: 1215px) {
+  .image-container div img {
+    width: 234px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .videos {
+
+    margin-bottom: 80px;
+}
+.image-container {
+     display: flex;
+    flex-direction: column;
+}
+
+.video-1, .video-2, .video-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container div img {
+    width: 190px;
+    margin-bottom: 30px;
+}
+
+.image-container div p {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+.image-container div p:before {
+       width: 50px;
+    height: 3px;
+
+}
+}

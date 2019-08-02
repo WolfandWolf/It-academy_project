@@ -96,13 +96,13 @@ header {
   }
 
   header #hide-container {
+    display: none;
     position: absolute;
     width: 32px;
     height: 20px;
     top: 54px;
     left: 109px;
     background-color: #fff;
-    display: none;
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
